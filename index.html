@@ -19,7 +19,9 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background: url("LTMbg.webp") right no-repeat, url("OPHbg.jpg") left no-repeat;
+  background-size:50%;
+  background-position: 0 75;
   color: white;
 }
 
@@ -80,11 +82,9 @@ body {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+/* image, just for this example */
+img {
+  border-radius: 8px;
 }
 
 /* Footer */
@@ -113,23 +113,23 @@ body {
 <body>
 
 <div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
+  <h1>Animal Behaviour and Cognition Lab</h1>
+  <p>National University of Singapore</p>
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">About us</a>
+  <a href="#">Gallery</a>
   <a href="#">Link</a>
   <a href="#" class="right">Link</a>
 </div>
 
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h2>Principal Investigator</h2>
+    <h3>Dr Elias Garcia-Pelegrin</h3>
+    <img src="Eli.jpg">
+    <p>This is Eli.</p>
     <h3>More Text</h3>
     <p>Lorem ipsum dolor sit ame.</p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
